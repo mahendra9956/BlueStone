@@ -1,0 +1,252 @@
+.product-detais-page {
+    background-color: rgb(233, 231, 231);
+}
+
+.page-links-card {
+    display: flex;
+    margin-left: 50px;
+}
+
+
+.icon-page-card img {
+    width: 50%;
+    margin-left: 100px;
+}
+
+.icon-page-card mat-icon {
+    margin-left: 600px;
+}
+
+.page-links-card a {
+    text-decoration: none;
+    color: rgb(153, 151, 151);
+    margin: 20px;
+}
+
+.page-links-card p {
+    margin-top: 22px;
+}
+.product-page-cole{
+    margin-right: 100px;
+}
+
+.product-page-button {
+    display: flex;
+    margin-left: 100px;
+    overflow-x: auto;
+    width: 400px;
+}
+
+.product-page-button img,
+video {
+    width: 100px;
+    height: 100px;
+
+}
+
+
+.product-page-cole h1 {
+    padding-top: 10px;
+
+}
+
+.product-page-cole h5 {
+    color: rgb(126, 126, 126);
+    margin-top: 20px;
+    border-bottom: 1px solid rgb(143, 142, 142);
+    padding-bottom: 10px;
+}
+
+.product-page-cole a {
+    text-decoration: none;
+    color: rgb(59, 59, 253);
+}
+
+.certified-company-page {
+    display: flex;
+    margin-left: 100px;
+}
+
+.now-buy-button-page .btn1 {
+    padding: 10px 50px 10px 50px;
+    margin: 10px;
+    background-color: red;
+    border: 1px solid red;
+    color: #fff;
+}
+
+.now-buy-button-page .btn2 {
+    padding: 10px 50px 10px 50px;
+    margin: 10px;
+    color: red;
+    border: 1px solid red;
+}
+
+.certified-company-page a {
+    text-decoration: none;
+    margin: 30px;
+    background-image: linear-gradient(to left, violet, indigo, green, blue, rgb(40, 149, 252), orange, red);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 18px;
+}
+
+.certified-company-page h1 {
+    font-size: 18px;
+    margin-top: 22px;
+}
+
+.similar-designs {
+    margin-top: 30px;
+}
+
+.similar-designs h1 {
+    margin-left: 120px;
+    font-size: 16px;
+    color: rgb(10, 10, 97);
+}
+
+.design-product-page {
+    display: flex;
+    width: 88%;
+    margin-left: 120px;
+    margin-top: 30px;
+    overflow-x: scroll;
+    height: 300px;
+}
+
+.design-product-page img {
+    margin: 10px;
+    background-color: rgb(219, 217, 217);
+}
+
+.design-product-page a {
+    text-decoration: none;
+    text-align: center;
+    font-size: 16px;
+    color: black;
+}
+
+
+.all-product-details-page {
+    display: flex;
+    margin-top: 30px;
+}
+
+.all-card h1 {
+    margin-left: 50px;
+    margin-top: 30px;
+    font-size: 16px;
+    color: rgb(11, 11, 58);
+}
+
+.all-product-details-card {
+    border: 1px solid black;
+    margin-left: 120px;
+    width: 80rem;
+}
+
+.product-box1 {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.certified-authenticity-page {
+    margin-left: 30px;
+
+}
+
+.authenticity-box1 {
+    background-color: rgb(243, 241, 241);
+    padding-bottom: 20px;
+    border: 1px dashed gainsboro;
+    margin-right: 40px;
+}
+
+.authenticity-box1 h1 {
+    margin: 20px;
+    padding-top: 10px;
+}
+
+.certified-authenticity-card {
+    margin-top: 30px;
+    background-color: rgb(197, 197, 250);
+    padding-bottom: 20px;
+    margin-right: 40px;
+}
+
+.certified-authenticity-card h1 {
+    margin-left: 70px;
+    padding-top: 10px;
+    font-size: 18px;
+
+}
+
+.certified-authenticity-card p {
+    margin-left: 60px;
+    width: 240px;
+    font-size: 14px;
+    text-align: center;
+    color: #fff;
+    line-height: 1.5;
+}
+
+.customer-speak-slide-page {
+    margin-top: 30px;
+    border: 1px solid gainsboro;
+    width: 60%;
+    margin-left: 120px;
+}
+
+.customer-speak-slide-page h1 {
+    padding-top: 20px;
+    margin-left: 20px;
+}
+
+
+.carousel-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+}
+
+.carousel-image {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    background-color: rgb(245, 242, 242);
+    margin-left: 150px;
+}
+
+.manufacturer {
+    margin-top: 30px;
+    border: 1px solid gainsboro;
+    width: 60%;
+    margin-left: 120px;
+    color: rgb(20, 20, 77);
+}
+
+.manufacturer-card {
+    display: flex;
+    margin-top: 30px;
+    height: 70px;
+    padding-bottom: 20px;
+}
+
+.manufacturer-card h4 {
+    margin-left: 20px;
+}
+
+.manufacturer-card h3 {
+    margin-left: 350px;
+}
+
+mat-panel-title {
+    margin-left: 20px;
+    color: rgb(11, 11, 58);
+}

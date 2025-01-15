@@ -1,0 +1,541 @@
+<div class="main-page">
+
+    <div class="video-page">
+        <video width="95%" height="850px" loop muted>
+            <source src="./assets/video/1000469526.mp4" type="video/mp4">
+        </video>
+    </div>
+
+
+    <div class="img-shadow-page">
+        <div class="solit-image-card">
+
+            <a href="#">
+                <img src="./assets/dashboard/solit.png" alt="">
+                <h1>Solitaries</h1>
+            </a>
+            <a href="#">
+                <img src="./assets/dashboard/watch.png" alt="">
+                <h1>Watch Jewellery</h1>
+            </a>
+            <a href="#">
+                <img src="./assets/dashboard/men.png" alt="">
+                <h1>Men's Jewellery</h1>
+            </a>
+            <a href="#">
+                <img src="./assets/dashboard/manga.png" alt="">
+                <h1>Mangalsutras</h1>
+            </a>
+            <a href="#">
+                <img src="./assets/dashboard/nose.png" alt="">
+                <h1>Nose Pin</h1>
+            </a>
+            <a href="#">
+                <img src="./assets/dashboard/kids.png" alt="">
+                <h1>kids Jewellery</h1>
+            </a>
+            <a href="#">
+                <img src="./assets/dashboard/coin.png" alt="">
+                <h1>Glod Coins</h1>
+            </a>
+            <a href="#">
+                <img src="./assets/dashboard/anklets.png" alt="">
+                <h1>Anklets</h1>
+            </a>
+        </div>
+
+        <div class="pendants-image-cards">
+            <a href="#">
+                <img src="./assets/dashboard/pendants.png" alt="">
+                <h1>Pendants</h1>
+            </a>
+            <a href="#">
+                <img src="./assets/dashboard/ring.png" alt="">
+                <h1>Rings</h1>
+            </a>
+            <a href="#">
+                <img src="./assets/dashboard/necklace.png" alt="">
+                <h1>Necklaces</h1>
+
+            </a>
+            <a href="#">
+                <img src="./assets/dashboard/earrings.png" alt="">
+                <h1>Earrings</h1>
+            </a>
+            <a href="#">
+                <img src="./assets/dashboard/bangle.png" alt="">
+                <h1>Bangles</h1>
+            </a>
+            <a href="#">
+                <img src="./assets/dashboard/blackets.png" alt="">
+                <h1>Bracelets</h1>
+            </a>
+            <a href="#">
+                <img src="./assets/dashboard/glodchain.png" alt="">
+                <h1>Glod Chains</h1>
+            </a>
+            <a href="#">
+                <img src="./assets/dashboard/kada.png" alt="">
+                <h1>Kada</h1>
+            </a>
+        </div>
+    </div>
+
+    <div class="glod-min">
+        <a href="#">
+            <div class="glod-content-page">
+                <h1>Glod Min 10+1 Monthly Plan </h1>
+                <p>(Pay 10 Installment, get 25% Off on 1st+100% Off on last )</p>
+                <button mat-raised-button>Enroll Now</button>
+            </div>
+        </a>
+    </div>
+
+
+
+
+    <div class="slide-images">
+
+        <div class="carousel-container">
+
+
+            <div *ngFor="let slide of slides; let i = index" [class.active]="i === currentSlideIndex"
+                class="carousel-slide">
+
+                <a href="#"><img [src]="slide.imageUrl" alt="Carousel Image {{ i + 1 }}" width="100%"
+                        height="400px"></a>
+
+                <div class="content-top">
+                    <h1>{{ slide.description }}</h1>
+
+                </div>
+            </div>
+
+            <div class="carousel-btn">
+                <!-- Previous Button -->
+                <button class="prev" (click)="prevSlide()">
+                    <mat-icon>chevron_left</mat-icon>
+                </button>
+                <!-- Next Button -->
+                <button class="next" (click)="nextSlide()">
+                    <mat-icon>chevron_right</mat-icon>
+                </button>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <div class="couple-image-page">
+
+        <div class="couple-page">
+            <a href="#">
+                <img src="./assets/images/couple.png" alt="">
+
+
+                <span>Evil Eye</span>
+                <p>Eyes on me, bad vibes flee</p>
+
+            </a>
+        </div>
+        <div class="friends-page">
+            <a href="#">
+
+                <span>Hello Kitty and Friends</span>
+
+
+                <img src="./assets/images/hello.png" alt="">
+
+
+            </a>
+
+            <div class="btn-collecton">
+                <a href="#">
+                    <h1>Browse all Collectons</h1>
+                </a>
+            </div>
+        </div>
+        <div class="arts-page">
+            <a href="#">
+                <img src="./assets/images/arts.png" alt="">
+
+                <span>Arts</span>
+                <p>Strokes of Genius</p>
+
+            </a>
+        </div>
+
+    </div>
+
+    <div class="perfect-gift-page">
+        <div class="necklace-content-page">
+            <a href="#">
+                <img src="./assets/dashboard/necklace.png" alt="" width="100px">
+                <div class="necklace-image-page">
+
+                    <h1>Layered Necklaces</h1>
+                    <p>Elevate your style with chic layered necklace for a trendy look</p>
+                </div>
+
+
+            </a>
+
+            <a href="#">
+                <img src="./assets/dashboard/blackets.png" alt="" width="100px">
+                <div class="blackets-image-page">
+
+                    <h1>Coveted Styles</h1>
+                    <p>A Curated selection of BlueStone's most Coveted jewels</p>
+                </div>
+
+            </a>
+
+
+            <a href="#">
+                <img src="./assets/dashboard/kids.png" alt="" width="100px">
+                <div class="kid-image-page">
+                    <h1>BlueStone Man</h1>
+                    <p>Shop the perfect pieces to enhance your man's unique style</p>
+                </div>
+
+            </a>
+        </div>
+
+        <div class="bd-left-line"></div>
+
+        <div class="gifts-page">
+            <a href="#">
+                <img src="./assets/images/gift.jpg" alt="">
+            </a>
+        </div>
+
+    </div>
+
+
+
+    <div class="hello-kitty-friend-page">
+        <a href="#">
+            <img src="./assets/images/kitty.png" alt="">
+            <h1>Hello kitty and Friends</h1>
+            <img src="./assets/images/hello.png" alt="">
+        </a>
+    </div>
+
+    <div class="design-led-jewellery">
+        <h1>Design Led Jewellery</h1>
+        <div class="design-led-page">
+            <div>
+                <a href="#" class="shoulder-page">
+                    <img src="./assets/desigener/images (2).png" alt="">
+                </a>
+                <a href="#" style="text-decoration: none; text-align: center; color: rgb(126, 125, 125);">
+                    <div class="shoulder-card">
+                        <img src="./assets/desigener/sub-img (3).png" alt="">
+                        <p>Shoulder Dusters</p>
+                    </div>
+                </a>
+            </div>
+            <div>
+
+                <a href="#" class="shoulder-watch-page">
+                    <img src="./assets/desigener/images (1).png" alt="">
+
+                </a>
+                <a href="#" style="text-decoration: none; text-align: center; color: rgb(126, 125, 125);">
+                    <div class="shoulder-watch-card">
+                        <img src="./assets/desigener/sub-img (2).png" alt="">
+                        <p>Watch Jewellery</p>
+                    </div>
+                </a>
+            </div>
+
+            <div>
+                <a href="#" class="y-necklace-page">
+                    <img src="./assets/desigener/images (3).png" alt="">
+
+                </a>
+                <a href="#" style="text-decoration: none;text-align: center; color: rgb(126, 125, 125);">
+                    <div class="y-necklace-card">
+                        <img src="./assets/desigener/sub-img (1).png" alt="">
+                        <p>Y Necklaces</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="strokes-vedio-page">
+        <video width="750px" height="350px" controls loop muted>
+            <source src="./assets/video/1000470537.mp4" type="video/mp4">
+        </video>
+        <h1># StrokesofGenius</h1>
+
+    </div>
+
+    <div class="gd-mn-page">
+
+        <h1>Glod Mine 10+1 </h1>
+        <h2>Monthly Installment Plan </h2>
+        <h3>Pay 10 installment, get 25% off on 1st one + 100% off on last ! *Redeemable from 6*month</h3>
+        <img src="./assets/video/images.png" alt="">
+    </div>
+
+
+    <div class="make-blod-moves">
+        <a href="#">
+            <p>#OOTD</p>
+            <video width="100%" loop muted>
+                <source src="./assets/video/1_v0.mp4" type="video/mp4">
+            </video>
+        </a>
+
+        <a href="#">
+            <p>#StyleInspo</p>
+            <video width="100%" loop muted>
+                <source src="./assets/video/2_v0.mp4" type="video/mp4">
+            </video>
+        </a>
+
+
+        <a href="#">
+            <p>#StackltUp</p>
+            <video width="100%" loop muted>
+                <source src="./assets/video/3_v0.mp4" type="video/mp4">
+            </video>
+        </a>
+
+
+        <a href="#">
+            <p>#MakeBlodMoves</p>
+            <video width="100%" loop muted>
+                <source src="./assets/video/4_v0.mp4" type="video/mp4">
+            </video>
+        </a>
+
+
+        <a href="#">
+            <p>#StylingTip</p>
+            <video width="100%" loop muted>
+                <source src="./assets/video/5_v0.mp4" type="video/mp4">
+            </video>
+        </a>
+
+    </div>
+
+
+
+    <div class="customer-testimonials-page">
+        <h1>Customer Testimonials</h1>
+        <div class="customer-testimonials-card">
+
+            <a href="#" class="akanksha-card">
+                <img src="./assets/customer/images (1).jpg" alt="">
+                <div>
+                    <h1>
+
+                        Akanksha Khanna,27
+                    </h1>
+                    <p> Delighted with my engagentient ring from Blue Sternel it's my dream ring, fits perfectly and is
+                        stunning to look at Thanks, BlueStone, for helping us find the perfect symbol of lovel
+                    </p>
+                </div>
+
+            </a>
+
+            <a href="#" class="diksha-card">
+                <img src="./assets/customer/images (5).jpg" alt="">
+                <div>
+                    <h1>
+                        Diksha Singh, 29</h1>
+                    <p>I was worried about finding good quality fine jewellery pieces online, but BlueStone's customer
+                        service gove me full assurance and the delivery was super quick. Their jewelery is certified,
+                        and there is no compromise in quality</p>
+                </div>
+            </a>
+
+            <a href="#" class="mishra-card">
+                <img src="./assets/customer/images (2).jpg" alt="">
+                <div>
+                    <h1>Nutan Mishra, 33</h1>
+                    <p>I got a Nazariya for my baby boy from BlueStore, It's so cute seeing it on my little one's wrist,
+                        and it gives me a sense of security knowing It's there. Thanks. BlueStone, for making such
+                        lovely pieces for our little ovenl
+                    </p>
+                </div>
+            </a>
+
+            <a href="#" class="divya-card">
+                <img src="./assets/customer/images (4).jpg" alt="">
+                <div>
+                    <h1>Divya Mishra, 26</h1>
+                    <p>
+                        On Valentine's Day, my husbi necklace from Bluelitone, and off even once, Everyone asks and I
+                        just LOVE how nice it lua</p>
+                </div>
+            </a>
+        </div>
+    </div>
+
+
+    <div class="editorial-page">
+        <h1>Editorial</h1>
+        <div class="editorial-card1">
+            <a href="#">
+                <img src="./assets/editors/e1_v2.webp" alt="">
+            </a>
+            <div class="editors-image-wt">
+                <a href="#">
+                    <img src="./assets/editors/e2.webp" alt="">
+                </a>
+                <a href="#">
+                    <img src="./assets/editors/e3.webp" alt="">
+                </a>
+                <a href="#">
+                    <img src="./assets/editors/e11.webp" alt="">
+                </a>
+                <a href="#">
+                    <img src="./assets/editors/e5.webp" alt="">
+                </a>
+                <a href="#">
+                    <img src="./assets/editors/e6.webp" alt="">
+                </a>
+                <a href="#">
+                    <img src="./assets/editors/e7.webp" alt="">
+                </a>
+            </div>
+        </div>
+
+
+        <div class="editorial-card1">
+
+            <div class="editors-image-wt">
+                <a href="#">
+                    <img src="./assets/editor-image/e8_v2.webp" alt="">
+                </a>
+                <a href="#">
+                    <img src="./assets/editor-image/e9.webp" alt="">
+                </a>
+                <a href="#">
+                    <img src="./assets/editor-image/e10.webp" alt="">
+                </a>
+                <a href="#">
+                    <img src="./assets/editor-image/e12.webp" alt="">
+                </a>
+                <a href="#">
+                    <img src="./assets/editor-image/e13.webp" alt="">
+                </a>
+                <a href="#">
+                    <img src="./assets/editor-image/e14.webp" alt="">
+                </a>
+            </div>
+
+            <a href="#">
+                <img src="./assets/editor-image/e4_v2.webp" alt="">
+            </a>
+        </div>
+
+
+        <div class="editorial-card1">
+            <a href="#">
+                <img src="./assets/editor-page/e15.webp" alt="">
+            </a>
+            <div class="editors-image-wt">
+                <a href="#">
+                    <img src="./assets/editor-page/e16.webp" alt="">
+                </a>
+                <a href="#">
+                    <img src="./assets/editor-page/e17_v2.webp" alt="">
+                </a>
+                <a href="#">
+                    <img src="./assets/editor-page/e18.webp" alt="">
+                </a>
+                <a href="#">
+                    <img src="./assets/editor-page/e19_v2.webp" alt="">
+                </a>
+                <a href="#">
+                    <img src="./assets/editor-page/e20_v2.webp" alt="">
+                </a>
+                <a href="#">
+                    <img src="./assets/editor-page/e21.webp" alt="">
+                </a>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="blueStone-store-page">
+        <a href="#">
+            <img src="./assets/images/bulestone-store.png" alt="">
+        <h1>A BlueStone store is closer than you think !</h1>
+        <div class="store-page">
+            <mat-icon>room</mat-icon> 
+            <p class="btn">200+ Store pan India</p>
+            <span class="btn-check">Check your nearest BlueStone store</span>
+
+        </div>
+        </a>
+    </div>
+
+
+    <div class="blueStone-promise-page">
+
+
+       <div class="promise-page">
+        <h1>BlueStone Promise</h1>
+       </div>
+        <div class="store-page-cities">
+         <div>
+            <div class="store-rd-box1">
+                <h1>200+ STORE</h1>
+                <p>80+ Cities Nationwide</p>
+            </div>
+            <div class="store-rd-box1">
+                <img src="./assets/store/images (2).png" alt="">
+                <p>30 Days money Back</p>
+            </div>
+            <div class="store-rd-box1">
+                <img src="./assets/store/like.png" alt="">
+                <p>No Compromise On Ethics</p>
+            </div>
+         </div>
+         <div>
+            <div class="store-rd-box1">
+                <img src="./assets/store/flower.png" alt="">
+                <p>100% certified Jewellery</p>
+            </div>
+            <div class="store-rd-box1">
+                <img src="./assets/store/images (5).png" alt="">
+                <p>100% Transparency</p>
+            </div>
+            <div class="store-rd-box1">
+                <img src="./assets/store/images (9).png" alt="">
+                <p>A world of Design</p>
+            </div>
+         </div>
+         <div>
+            <div class="store-rd-box1">
+                <img src="./assets/store/images (3).png" alt="">
+                <p>Lifetime Exchange & Buyback</p>
+            </div>
+            <div class="store-rd-box1">
+                <img src="./assets/store/images (1).png" alt="">
+                <p>Free Shipping</p>
+            </div>
+            <div class="store-rd-box1">
+                <img src="./assets/store/images (10).png" alt="">
+                <p>Curated Comfort With Try at Home</p>
+            </div>
+         </div>
+
+        </div>
+
+
+    </div>
+
+
+</div>

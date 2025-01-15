@@ -1,0 +1,770 @@
+.img-shadow-page {
+
+    background-color: #fff;
+
+}
+
+.main-page {
+    z-index: 1000;
+}
+
+.video-page {
+    text-align: center;
+}
+
+.solit-image-card {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.solit-image-card a {
+    border: 1px solid rgb(253, 237, 237);
+    background-color: rgb(253, 237, 237);
+    border-radius: 20px;
+    box-shadow: 0px 0px 3px 0px black;
+    text-decoration: none;
+}
+
+.solit-image-card h1 {
+    font-size: 14px;
+    text-align: center;
+    color: black;
+    opacity: 0.4;
+}
+
+.solit-image-card a:hover {
+    -ms-transform: scale(2.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(0.8);
+
+}
+
+.solit-image-card img {
+    width: 150px;
+    height: 100px;
+}
+
+.pendants-image-cards {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.pendants-image-cards img {
+    width: 150px;
+    height: 100px;
+}
+
+.pendants-image-cards a {
+    border: 1px solid rgb(253, 237, 237);
+    background-color: rgb(253, 237, 237);
+    border-radius: 20px;
+    box-shadow: 0px 0px 3px 0px black;
+    text-decoration: none;
+}
+
+.pendants-image-cards h1 {
+    font-size: 14px;
+    text-align: center;
+    color: black;
+    opacity: 0.4;
+}
+
+.pendants-image-cards a:hover {
+    -ms-transform: scale(2.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(0.8);
+
+}
+
+.glod-min {
+    background-color: rgb(253, 237, 237);
+    margin-top: 30px;
+
+}
+
+.glod-min a {
+    text-decoration: none;
+    color: black;
+}
+
+.glod-content-page {
+    padding-top: 20px;
+    display: flex;
+    padding: 20px;
+
+}
+
+.glod-content-page h1 {
+    margin-left: 200px;
+}
+
+.glod-content-page p {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.glod-content-page button {
+    padding: 0px 50px 10px 50px;
+    margin-left: 10px;
+}
+
+.slide-images {
+    padding-top: 20px;
+}
+
+.carousel-container {
+
+    overflow: hidden;
+    width: 100%;
+
+}
+
+.carousel-slide {
+    display: none;
+}
+
+.carousel-slide.active {
+    display: block;
+}
+
+.content-top h1 {
+    background-color: rgba(225, 225, 225, 0.1);
+    color: white;
+    border: 1px solid rgba(225, 225, 225, 0.1);
+    width: 19%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0.2);
+    padding: 20px;
+    margin-top: -150px;
+    font-size: 26px;
+    margin-left: 20px;
+    backdrop-filter: blur(10px);
+    z-index: 100;
+
+}
+
+
+.carousel-btn {
+    margin-top: -150px;
+    margin-bottom: 220px;
+}
+
+.carousel-btn .prev {
+    margin-left: 50px;
+    border: none;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.carousel-btn .next {
+    margin-left: 72rem;
+    border: none;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.couple-image-page {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+
+}
+
+.couple-image-page img {
+    width: 430px;
+    height: 300px;
+
+}
+
+.couple-page a {
+    display: flex;
+    background: linear-gradient(760deg, rgb(239, 245, 247) 0%, rgb(163, 227, 252) 70%, rgb(103, 224, 245) 100%);
+    border-radius: 30px;
+    text-decoration: none;
+    position: relative;
+}
+
+.couple-page {
+    z-index: 100;
+}
+
+.couple-page span {
+    position: absolute;
+    margin-top: 70px;
+    padding-left: 270px;
+    font-size: 16px;
+    color: rgb(20, 20, 107);
+    width: 200px;
+
+    font-weight: 600;
+
+}
+
+.couple-page img {
+    border-radius: 30px 30px 30px 30px;
+
+}
+
+.couple-page p {
+    position: absolute;
+    margin-top: 100px;
+    padding-left: 240px;
+    font-size: 16px;
+    color: rgb(20, 20, 107);
+    width: 130px;
+
+    font-weight: 600;
+
+}
+
+.friends-page a {
+    display: flex;
+    background: linear-gradient(760deg, rgb(238, 5, 168) 0%, rgb(248, 165, 200) 70%, rgb(250, 190, 218) 100%);
+    margin-top: -100px;
+    border-radius: 30px;
+    text-decoration: none;
+    position: relative;
+
+}
+
+.friends-page span {
+    position: absolute;
+    margin-top: 80px;
+    padding-left: 310px;
+    font-size: 16px;
+    color: rgb(248, 32, 78);
+    width: 100px;
+    font-weight: 600;
+
+}
+
+.arts-page a {
+    display: flex;
+    display: flex;
+    background: linear-gradient(760deg, rgba(245, 244, 245, 0.808) 0%, rgb(179, 177, 178) 70%, rgb(90, 89, 89) 100%);
+    border-radius: 30px;
+    text-decoration: none;
+    position: relative;
+}
+
+.arts-page span {
+    position: absolute;
+    margin-top: 200px;
+    padding-left: 200px;
+    font-size: 16px;
+    color: black;
+    width: 100px;
+
+    font-weight: 600;
+}
+
+.arts-page p {
+    position: absolute;
+    margin-top: 220px;
+    padding-left: 150px;
+    font-size: 16px;
+    color: black;
+    width: 200px;
+
+    font-weight: 600;
+}
+
+
+.btn-collecton {
+    background-color: rgb(247, 214, 214);
+}
+
+.btn-collecton a {
+    padding: 10px 20px 10px 20px;
+    margin-top: 35px;
+    text-decoration: none;
+    width: 170px;
+    margin-left: 100px;
+    border-radius: 10px;
+}
+
+.btn-collecton h1 {
+    font-size: 16px;
+    color: black;
+
+}
+
+
+.perfect-gift-page {
+    display: flex;
+
+    border-top: 1px solid rgb(212, 209, 211);
+    margin-top: 30px;
+
+}
+
+.bd-left-line {
+    border-left: 1px solid rgb(212, 209, 211);
+    margin-left: 50px;
+}
+
+.necklace-content-page {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+
+
+}
+
+
+.necklace-content-page a {
+    border: 1px solid rgb(247, 214, 214);
+    margin-left: 40px;
+    text-decoration: none;
+
+
+}
+
+.necklace-image-page {
+
+    width: 150px;
+    height: 200px;
+    background-color: rgb(247, 214, 214);
+    color: rgb(170, 169, 169);
+
+
+}
+
+.necklace-image-page h1 {
+    font-size: 18px;
+}
+
+.necklace-image-page p {
+    color: black;
+}
+
+.blackets-image-page {
+
+    width: 150px;
+    height: 200px;
+    background-color: rgb(247, 214, 214);
+    color: rgb(170, 169, 169);
+
+}
+
+.blackets-image-page h1 {
+    font-size: 18px;
+}
+
+.blackets-image-page p {
+    color: black;
+}
+
+.kid-image-page {
+    margin-top: 33px;
+    width: 150px;
+    height: 200px;
+    background-color: rgb(247, 214, 214);
+    color: rgb(170, 169, 169);
+
+}
+
+.kid-image-page h1 {
+    font-size: 18px;
+}
+
+.kid-image-page p {
+    color: black;
+}
+
+.gifts-page {
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
+.gifts-page img {
+    width: 600px;
+}
+
+.hello-kitty-friend-page a {
+    background: linear-gradient(260deg, rgb(238, 5, 168) 0%, rgb(252, 184, 212) 70%, rgb(247, 199, 221) 100%);
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+    color: rgb(247, 42, 76);
+}
+
+.hello-kitty-friend-page h1 {
+    margin-top: 170px;
+    font-size: 70px;
+
+}
+
+.hello-kitty-friend-page img {
+    width: 300px;
+
+}
+
+.design-led-jewellery {
+    margin-top: 30px;
+}
+
+.design-led-jewellery h1 {
+    text-align: center;
+    color: rgb(28, 28, 117);
+}
+
+.design-led-page {
+    display: flex;
+
+
+}
+
+.shoulder-page img {
+    background: linear-gradient(260deg, rgb(80, 79, 79) 0%, rgb(63, 63, 63) 70%, rgb(236, 232, 234) 100%);
+    border-radius: 30px;
+    width: 400px;
+    margin-left: 20px;
+    position: absolute;
+}
+
+.shoulder-card {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0.2);
+    position: relative;
+    margin-top: 330px;
+    margin-left: 100px;
+    border-radius: 20px;
+
+}
+
+.shoulder-card img {
+    width: 150px;
+
+}
+
+.shoulder-watch-page img {
+
+    background: linear-gradient(260deg, rgb(80, 79, 79) 0%, rgb(63, 63, 63) 70%, rgb(236, 232, 234) 100%);
+    border-radius: 30px;
+    width: 400px;
+    height: 400px;
+    margin-left: 230px;
+    position: absolute;
+}
+
+.shoulder-watch-card {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0.2);
+    position: relative;
+    margin-top: 330px;
+    margin-left: 340px;
+    border-radius: 20px;
+
+
+}
+
+.shoulder-watch-card img {
+    width: 150px;
+}
+
+.y-necklace-page img {
+
+    background: linear-gradient(260deg, rgb(80, 79, 79) 0%, rgb(63, 63, 63) 70%, rgb(236, 232, 234) 100%);
+
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    margin-left: 200px;
+    border-radius: 30px;
+}
+
+
+.y-necklace-card {
+    background-color: pink;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0.2);
+    position: relative;
+    margin-top: 330px;
+    margin-left: 350px;
+    border-radius: 20px;
+}
+
+.y-necklace-card img {
+    width: 150px;
+}
+
+.strokes-vedio-page {
+    margin-top: 30px;
+    display: flex;
+
+}
+
+.strokes-vedio-page video {
+    border: 3px solid rgb(129, 21, 62);
+    border-radius: 10px;
+    margin-left: 30px;
+}
+
+.strokes-vedio-page h1 {
+    color: rgb(129, 21, 62);
+    margin-top: 150px;
+    margin-left: 50px;
+    font-size: 50px;
+}
+
+.gd-mn-page {
+    background-color: rgb(252, 239, 241);
+    display: flex;
+    margin-top: 30px;
+    height: 200px;
+}
+
+.gd-mn-page h1,
+h2,
+h3,
+img {
+    margin-top: 50px;
+}
+
+.gd-mn-page h1 {
+    font-size: 45px;
+    margin-left: 40px;
+}
+
+.gd-mn-page h2 {
+    font-size: 20px;
+    margin-left: 40px;
+}
+
+.gd-mn-page h3 {
+    font-size: 16px;
+    margin-left: 100px;
+    width: 150px;
+}
+
+.gd-mn-page img {
+    width: 200px;
+    margin-left: 200px;
+}
+
+.make-blod-moves {
+    margin-top: 30px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.make-blod-moves a,
+p {
+    text-decoration: none;
+    margin-left: 20px;
+    color: gainsboro;
+}
+
+.make-blod-moves a,
+video {
+    margin-left: 10px;
+    border-radius: 10px;
+}
+
+.customer-testimonials-page {
+    margin-top: 30px;
+}
+
+.customer-testimonials-page h1 {
+    text-align: center;
+    color: rgb(14, 14, 80);
+}
+
+.customer-testimonials-card {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.customer-testimonials-card a {
+    text-decoration: none;
+}
+
+.akanksha-card {
+    background-color: rgb(253, 222, 227);
+    margin-left: 20px;
+    border-radius: 15px;
+    rotate: 25deg;
+    width: 20%;
+    height: 470px;
+}
+
+.akanksha-card img {
+    margin-left: 15px;
+    width: 90%;
+}
+
+.akanksha-card p {
+    color: rgb(194, 189, 189);
+}
+
+.diksha-card {
+    background-color: rgb(253, 222, 227);
+    margin-left: 150px;
+    border-radius: 15px;
+    rotate: 350deg;
+    width: 20%;
+    height: 460px;
+}
+
+.diksha-card img {
+    margin-left: 10px;
+    width: 90%;
+}
+
+.diksha-card p {
+    color: rgb(194, 189, 189);
+}
+
+.mishra-card {
+    background-color: rgb(253, 222, 227);
+    margin-left: 150px;
+    border-radius: 15px;
+    rotate: 330deg;
+    width: 20%;
+    height: 550px;
+}
+
+.mishra-card img {
+    margin-left: 10px;
+    width: 90%;
+}
+
+.mishra-card p {
+    color: rgb(194, 189, 189);
+}
+
+.divya-card {
+    background-color: rgb(253, 222, 227);
+    margin-left: 170px;
+    border-radius: 15px;
+    rotate: 10deg;
+    width: 20%;
+    height: 500px;
+}
+
+.divya-card img {
+    margin-left: 10px;
+    width: 90%;
+}
+
+.divya-card p {
+    color: rgb(194, 189, 189);
+}
+
+.editorial-page {
+    margin-top: 30px;
+}
+
+.editorial-page h1 {
+    text-align: center;
+    color: rgb(6, 6, 78);
+}
+
+.editorial-card1 {
+    display: flex;
+}
+
+.editorial-card1 img {
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+}
+
+.editors-image-wt img {
+    width: 250px;
+    height: 220px;
+    margin-left: 30px;
+    border-radius: 10px;
+}
+
+.editors-image-wt img:hover {
+    // -ms-transform: scale(5.5);
+    // -webkit-transform: scale(1.5);
+    transform: scale(0.9);
+}
+
+.blueStone-store-page a {
+    text-decoration: none;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    background: linear-gradient(460deg, rgb(230, 228, 228) 0%, rgba(199, 197, 197, 0.1) 70%, rgb(202, 235, 248) 80%);
+}
+
+.blueStone-store-page h1 {
+    margin-top: 120px;
+}
+
+.store-page {
+    margin-top: 50px;
+    line-height: 4.5;
+}
+
+.store-page mat-icon {
+    margin-left: 50px;
+}
+
+.store-page .btn,
+.btn-check {
+    color: black;
+
+}
+
+.blueStone-promise-page {
+    margin-top: 30px;
+    display: flex;
+    background-color: rgb(252, 239, 241);
+    padding-bottom:20px;
+
+}
+
+.promise-page h1 {
+    font-size: 100px;
+    line-height: 1.0;
+    margin-top: 250px;
+    margin-left: 50px;
+
+}
+
+.store-page-cities {
+    margin-top: 30px;
+    display: flex;
+    border: 1px solid rgb(15, 15, 15);
+    justify-content: space-between;
+    border-radius: 20px;
+    width: 50%;
+    margin-right: 70px;
+
+   
+}
+
+.store-rd-box1 h1 {
+    background-color: rgb(11, 11, 58);
+    color: #fff;
+    border-radius: 100%;
+    padding: 30px 0px 30px 0px;
+    font-size: 30px;
+    text-align: center;
+    margin-left: 20px;
+    margin-top: 30px;
+    width: 150px;
+    margin-right: 20px;
+}
+.store-rd-box1 img{
+    width: 120px;
+    height: 100px;
+}
+.store-rd-box1 p{
+    color: black;
+    text-align: center;
+    font-size: 16px;
+    width: 100px;
+    margin-left: 40px;
+}

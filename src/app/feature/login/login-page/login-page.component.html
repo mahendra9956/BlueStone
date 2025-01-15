@@ -1,0 +1,20 @@
+<div
+    style=" padding-bottom: 30px; background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0tMmjlv7CHHipsxtyAsC5xB-EPQBmOjj7Og&s);background-repeat: no-repeat; background-size: cover;">
+    <button class="close-btn" (click)="closeDailog()"><mat-icon>clear</mat-icon></button>
+
+    <div class="login-page">
+        <h1>Welcome back, Login Here</h1>
+        <p>Please enter your phone number or email address below. We will send you the OTP.</p>
+        <input type="email" placeholder="Email or Phone Number">
+        <button class="btn-submit" mat-raised-button color="warn">Submit</button>
+        <div class="signup-page">Do not have an account with us? <button class="btn-signup" mat-button color="warn"
+                (click)="openSignupDailog()">Sign Up</button></div>
+
+        <div class="login-facebook-buttons">
+            <button class="btn1" mat-raised-button color="warn" (click)="openLoginWithEmail()">Login With Email</button>
+            <button class="btn2" mat-raised-button color="primary">Login With Facebook</button>
+        </div>
+
+    </div>
+</div>
+

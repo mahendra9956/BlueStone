@@ -1,0 +1,340 @@
+.toolbar-page {
+    height: 100px;
+    z-index: 1000;
+}
+
+.logo-page img {
+    width: 200px;
+
+}
+
+.logo-page input {
+    margin-left: 150px;
+    padding: 10px 50px 10px 150px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+
+
+.login-page {
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    margin-left: 47rem;
+    margin-bottom: 50px;
+
+}
+
+.login-page h2 {
+    margin-left: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+    opacity: 0.6;
+}
+
+.login-page a {
+    text-decoration: none;
+    display: flex;
+    margin-left: 14px;
+    color: blue;
+}
+
+.locate-page {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    margin-top: 20px;
+    margin-left: 110px;
+}
+
+.locate-page h1 {
+    margin-left: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.locate-page a {
+    text-decoration: none;
+    display: flex;
+    margin-left: 15px;
+    margin-top: 5px;
+    color: black;
+}
+
+.locate-page a:hover {
+    color: red;
+}
+
+.locate-page mat-icon {
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+.header-page-min {
+    display: flex;
+    justify-content: space-around;
+    //background-color: rgb(9, 9, 39);
+    background-color: #001e38;
+    color: #fff;
+    height: 50px;
+    padding-top: 20px;
+    z-index: 800;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+
+.header-page-min a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.dropbtn {
+    color: white;
+    font-size: 16px;
+    border: none;
+    text-transform: uppercase;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 14px;
+}
+
+.dropdown-content a:hover {
+
+    color: rgb(247, 143, 59);
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+
+}
+
+.dropbtn-rings {
+    color: white;
+    font-size: 16px;
+    border: none;
+    text-transform: uppercase;
+}
+
+.dropdown-rings {
+    position: relative;
+
+}
+
+.dropdown-content-rings {
+    display: none;
+    position: fixed;
+    background-color: #fff;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    width: 90%;
+    right: 0;
+}
+
+.dropdown-content-rings a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+}
+
+
+.dropdown-content-rings a:hover {
+    color: rgb(247, 143, 59);
+}
+
+.dropdown-rings:hover .dropdown-content-rings {
+    display: block;
+    margin-right: 60px;
+}
+
+.rings-card {
+    display: flex;
+}
+
+.rings-page-heading {
+    display: flex;
+    justify-content: space-around;
+    color: black;
+
+}
+
+.rings-page-heading a {
+    color: green;
+}
+
+.rings-page-heading h1 {
+    font-size: 16px;
+    margin-top: 12px;
+}
+
+.popular-rings a {
+    font-size: 14px;
+}
+
+.price-range a {
+    font-size: 14px;
+
+    text-align: center;
+}
+
+.price-range {
+    background-color: rgb(247, 245, 245);
+    margin-left: 100px;
+    width: 250px;
+}
+
+.stone-page a {
+    font-size: 14px;
+    width: 170px;
+}
+
+.stone-page {
+    margin-left: 100px;
+}
+
+.view-all-page {
+    margin-left: 80px;
+
+}
+
+.view-all-page a {
+
+    display: flex;
+
+}
+
+.livana-love {
+    margin-left: 10px;
+}
+
+.livana-love h1 {
+    font-size: 14px;
+    text-decoration: underline;
+}
+
+.livana-love p {
+    font-size: 12px;
+}
+
+.dropbtn-offer {
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+
+}
+
+.dropdown-offer {
+    position: relative;
+}
+
+.dropdown-content-offer {
+    display: none;
+    position: fixed;
+    right: 0;
+    background-color: #fff;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    width: 400px;
+    font-size: 14px;
+
+}
+
+.dropdown-content-offer a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 14px;
+}
+
+.dropdown-offer:hover .dropdown-content-offer {
+    display: block;
+    margin-right: 20px;
+}
+
+
+.dropdown-content-offer a:hover {
+    color: rgb(247, 143, 59);
+}
+
+.dropdown-gold-coin {
+    position: relative;
+}
+
+.dropbtn-glod-coin {
+    font-size: 16px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.dropdown-content-glod-coin {
+    display: none;
+    position: fixed;
+    right: 0;
+    width: 400px;
+    background-color: #fff;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-content-glod-coin a {
+    display: block;
+    padding: 10px 16px;
+    color: black;
+    text-decoration: none;
+}
+
+.dropdown-gold-coin:hover .dropdown-content-glod-coin {
+    display: block;
+    margin-right: 30px;
+}
+
+.dropdown-content-glod-coin a:hover {
+    color: rgb(247, 143, 59);
+}
+
+.glod-card {
+    display: flex;
+}
+
+.glod-header-page {
+    display: flex;
+    justify-content: space-around;
+    color: black;
+
+}
+
+.glod-header-page h1 {
+    font-size: 16px;
+}
+
+.popular-glod a {
+    margin-left: 50px;
+}
+
+.popular-glods a {
+    margin-left: 120px;
+}

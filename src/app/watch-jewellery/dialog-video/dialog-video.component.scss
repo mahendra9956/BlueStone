@@ -1,0 +1,38 @@
+
+.video-page-main{
+    width: 300px;
+    height: 400px;
+    position: relative;
+}
+video{
+    width: 100%;
+}
+.video-page-main mat-icon{
+    margin-left: 260px;
+  
+}
+
+.overlay {
+    position: absolute; 
+   // background: rgb(0, 0, 0);
+   // background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1; 
+  //  width: 100%;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+   margin-top: 20px;
+  }
+  .overlay a{
+    text-decoration: none;
+   border: 2px solid red;
+   background-color: red;
+   color: #fff;
+   padding: 20px 52px 20px 110px;
+   text-align: center;
+  }
+  
+  .video-page-main:hover .overlay {
+    opacity: 1;
+  }

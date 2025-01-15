@@ -1,0 +1,17 @@
+<div class="login-page">
+    <h1>Welcome back, Login Here</h1>
+    <input type="email" placeholder="Email">
+    <input class="password-input" type="password" placeholder="Password">
+    <div class="login-cancel-button">
+        <button class="btn-submit">Login</button>
+        <button class="btn-cancel" (click)="cancelLogin()">Cancel</button>
+    </div>
+    <div class="signup-page"><button mat-button color="warn" (click)="openForgot()">Forgot Password</button> Do not have an account with us?
+        <button class="btn-signup" mat-button color="warn" (click)="openSignupPage()">Sign Up</button>
+    </div>
+
+    <div class="login-facebook-buttons">
+        <button class="btn2" mat-raised-button color="primary">Login With Facebook</button>
+    </div>
+
+</div>
